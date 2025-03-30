@@ -1,0 +1,95 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+:root {
+  --background: #ffffff;
+  --text-color: #000000;
+}
+
+[data-theme='dark'] {
+  --background: #121212;
+  --text-color: #ffffff;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+textarea, select, input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+[data-theme='dark'] th {
+  background-color: #333;
+}
+
+.history-container {
+  margin-top: 40px;
+}
+
+.query-dropdown {
+  margin-top: 10px;
+}
+
+.download-btn {
+  background-color: #28a745;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+.dark-mode-toggle {
+  float: right;
+}
