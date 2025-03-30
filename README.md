@@ -4,7 +4,7 @@
 
 ## 📊 Project Overview
 
-CSV Query App is a browser-based data analysis tool that enables users to upload CSV files and query them using SQL-like syntax without requiring a database or server-side processing. The application provides a clean, intuitive interface for exploring data, applying filters, and exporting results, making it an efficient solution for quick data analysis tasks.
+CodeCosmos App is a browser-based data analysis tool that enables users to upload CSV files and query them using SQL-like syntax without requiring a database or server-side processing. The application provides a clean, intuitive interface for exploring data, applying filters, and exporting results, making it an efficient solution for quick data analysis tasks.
 
 Key capabilities include:
 - CSV file parsing and validation
