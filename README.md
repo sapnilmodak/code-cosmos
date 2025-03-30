@@ -1,6 +1,6 @@
 
 
-# CSV Query App
+# CodeCosmos
 
 ## 📊 Project Overview
 
